@@ -1,0 +1,135 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/background.png');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.fondo-contenido {
+    margin-top: 2%;
+    width: 75%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: 900px;
+}
+
+header {
+    margin-top: 1%;
+    height: 30%;
+    background-image: url('../images/banner.jpg');
+    background-size: 100% 100%;
+    background-color: aqua;
+    position: relative;
+
+}
+
+header h1 {
+    position: absolute;
+    left: 2rem;
+    font-size: 3.5rem;
+    color: green;
+}
+
+nav {
+    background-color: rgb(70, 128, 2);
+    height: 3%;
+}
+
+nav a {
+    font-weight: 100;
+    color: #fff;
+    text-decoration: none;
+    width: 25%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-right: 3px solid #fff;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+nav a:nth-child(5) {
+    border-right: 0;
+}
+
+.contenedor-noticias {
+    width: 50%;
+    height: 50%;
+    margin: 5px 20px;
+    min-width: 270px;
+}
+
+.contenedor-noticias .noticias {
+    width: 100%;
+    height: 50%;
+}
+
+.noticias h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.noticias h3 {
+    color: green;
+}
+
+.noticias img {
+    float: left;
+}
+
+.Principal{
+    width: 100%;
+    display: flex;
+}
+
+.contenedor-noticias p{
+    font-size: 13px;
+text-align: justify;
+}
+
+.contenedor-noticias{
+    display: block;
+}
+
+
+.articulo-principal{
+    width: 80%;
+    min-width: 530px;
+}
+
+.articulo-principal p{
+    display: inline;
+    font-size: .8rem;
+    text-align: justify;
+}
+
+.articulo-principal h2{
+    color: green;
+}
+
+.articulo-principal img{
+    float: left;
+    margin-right: 10px;
+    width: 110px;
+}
+
+footer{
+    background-color: rgb(70, 129, 0);
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    font-weight: 100;
+    color: #fff;
+    text-decoration: none;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-right: 3px solid #fff;
+    font-size: 1.2rem;
+}
